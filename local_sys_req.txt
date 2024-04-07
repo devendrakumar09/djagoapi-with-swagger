@@ -1,0 +1,40 @@
+***********pip packages***********
+ pip install django
+ pip install djangorestframework
+ pip install drf-yasg
+ pip install djangorestframework-simplejwt
+ 
+ 
+********** superuser *********
+admmin : 123
+password : 123
+ 
+ ***********routing***********
+http://127.0.0.1:8000
+http://127.0.0.1:8000/swagger/
+http://127.0.0.1:8000/admin/
+
+
+********** JWT TOKEN API **********
+http://127.0.0.1:8000/api/token/
+http://127.0.0.1:8000/api/token/refresh/
+
+********** CUSTOMER API **********
+Method['GET'] :-http://127.0.0.1:8000/customer/
+Method['POST']:-http://127.0.0.1:8000/customer/
+Method['PUT']:-http://127.0.0.1:8000/customer/<int:id>/
+Method['DELETE']:-http://127.0.0.1:8000/customer/<int:id>
+
+********** EMPLOYEE API (PROTECTED) **********
+Method['GET'] :-http://127.0.0.1:8000/employee/
+Method['POST']:-http://127.0.0.1:8000/employee/
+Method['PUT']:-http://127.0.0.1:8000/employee/<int:id>
+Method['DELETE']:-http://127.0.0.1:8000/employee/<int:id>
+
+********** PRODUCT API **********
+Method['GET'] :-http://127.0.0.1:8000/products/
+Method['POST']:-http://127.0.0.1:8000/products/
+Method['PUT']:-http://127.0.0.1:8000/products/<int:id>
+Method['DELETE']:-http://127.0.0.1:8000/products/<int:id>
+	
+ 	
